@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Dashboard</title>
+    <!--This link is for the Bootstrap CSS CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <!-- This link is for some good CSS icons.-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Assets/style.css">
+</head>
+<body>
+    <!--The Weather Dashboard title Titantron-->
+    <div class="titantron">
+        <h1> <strong>Weather Dashboard</strong></h1>
+    </div>
+    <div class="container">
+        <!--This is a new row for a city search.-->
+        <div class="row">
+            <div class="col-sm-4 bg-light">
+                <!-- This is our city search button. -->
+                <h4 class="pt-1"><strong>Search for a City:</strong></h4>
+                <!--This is the text box for the city search.-->
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control"id="city-search" aria-label="City Search" aria-describedby="search-button">
+                    <div class="input-group-append">
+                        <button id="search-button"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <!--this is the button to clear the recently searched cities. It also chears the listed previously searched cities.-->
+                <button type="button" id="clear-data">Clear Data</button>
+                <ul class="list-group">
+
+                </ul>
+            </div>   
+            <!-- This is the box that displlays a city's current weather stats and the weather -->
+            <div class="col-sm-8">
+                <div class="trimmer">
+                    <div class="col-sm-12" id="current-weather">
+                        <h3 class="city-name mb-1 mt-2 bolder" id="current-city"></h3>
+                        <p>Temperature: <span class="current" id="temperature"> </span></p>
+                        <p>Humidity: <span class="current" id="humidity"> </span></p> 
+                        <p>Wind Speed: <span class="current" id="wind-speed"> </span></p>
+                        <p>UV index: <span class="current rounded py-2 px-2" id="uv-index"></span></p> 
+                    </div>
+                </div>
+                <!--This is where our 5-day forecast is displayed.-->
+                <div id ="future-weather">
+                    <h3>5-Day Forecast:</h3>
+                    <div class="row text-light">
+                        <div class="weather-card">
+                            <p id="fDate0"></p>
+                            <p id="fImg0"></p>
+                            <p>Temp: <span id="fTemp0"></span></p>
+                            <p>Wind: <span id="fWind0"></span></p>
+                            <p>Humidity: <span id="fHumidity0"></span></p>
+                        </div>
+                        <div class="weather-card">
+                            <p id="fDate1"></p>
+                            <p id="fImg1"></p>
+                            <p>Temp: <span id="fTemp1"></span></p>
+                            <p>Wind: <span id="fWind1"></span></p>
+                            <p>Humidity: <span id="fHumidity1"></span></p>
+                        </div>
+                        <div class="weather-card">
+                            <p id="fDate2"></p>
+                            <p id="fImg2"></p>
+                            <p>Temp: <span id="fTemp2"></span></p>
+                            <p>Wind: <span id="fWind2"></span></p>
+                            <p>Humidity: <span id="fHumidity2"></span></p>
+                        </div>
+                        <div class="weather-card">
+                            <p id="fDate3"></p>
+                            <p id="fImg3"></p>
+                            <p>Temp: <span id="fTemp3"></span></p>
+                            <p>Wind: <span id="fWind3"></span></p>
+                            <p>Humidity: <span id="fHumidity3"></span></p>
+                        </div>
+                        <div class="weather-card">
+                            <p id="fDate4"></p>
+                            <p id="fImg4"></p>
+                            <p>Temp: <span id="fTemp4"></span></p>
+                            <p>Wind: <span id="fWind4"></span></p>
+                            <p>Humidity: <span id="fHumidity4"></span></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--jQuery JS-->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <!--Code to Jvascript File-->
+    <script src="./Assets/script.js"></script>
+</body>
+</html>
