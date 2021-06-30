@@ -7,8 +7,8 @@ I learned how to use a variety of functions to populate the weather forecast. I 
 get the weather forecast data to use in my assignment. I did a really good job of describing my code in this one.
 
 **URLs for the Coding Challenge Quiz Website** <BR />
-<a href ="https://burkemm.github.io/Matt-Burkes-Day-Planner/">Matt Burke's Weather Dashboard</a> <BR />
-<a href ="https://github.com/burkemm/Matt-Burkes-Day-Planner">Matt Burke's Weather Dashboard Github Repository</a>
+<a href ="https://burkemm.github.io/Matt-Burkes-Weather-Board/">Matt Burke's Weather Dashboard</a> <BR />
+<a href ="https://github.com/burkemm/Matt-Burkes-Weather-Board">Matt Burke's Weather Dashboard Github Repository</a>
 
 **What's the current webpage look like?** <BR />
 
