@@ -38,7 +38,7 @@ h3{
   border-radius: 15px;
 }
 /* This is the search-button ID configurations. */
-#search-button {
+#button-search {
   background-color: rgb(112, 221, 221);
   border-style: none;
 }
