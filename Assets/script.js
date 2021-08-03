@@ -8,7 +8,7 @@ var presentHumidity= $("#presentHumidity");
 var presentWindSpeed=$("#presentWindspeed");
 var searchButton = $("#button-search");
 var clearButton = $("#clear-data");
-var APIKey="bc2194bf2b678d6ec02f05146c48236e";
+var APIKey="aa34196ceb99727d5e5b9f1c4e953d35";
 
 function presentWeather(citySearch){
     // This variable builds the URL for the city and the API key using the get method.
